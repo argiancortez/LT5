@@ -1,10 +1,10 @@
 import javax.swing.*;
 
 class Compute extends Methods {
-     public static int computeDamage(String value1, String value2) {
+     public static int computedamage(String value1, String value2) {
          int val1 = Integer.parseInt(value1);
          int val2 = Integer.parseInt(value2);
-         int finalage = val1 + val2;
+         int finaldamage = val1 + val2;
          return finaldamage;
 
      }
